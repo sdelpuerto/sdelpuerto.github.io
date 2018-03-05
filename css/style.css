@@ -1,0 +1,46 @@
+.es, .en {
+  display: none !important;
+}
+.es:lang(es), .en:lang(en) {
+  display: block !important;
+}
+
+.flag {
+  margin: 13px;
+  opacity: 0.5;
+  cursor: pointer;
+}
+
+.flag:hover {
+  opacity: 0.7;
+}
+
+.flag.active {
+   opacity: 1;
+}
+
+.flag > img {
+  height: 24px;
+}
+
+.modal {
+  padding-right: 0 !important;
+}
+
+.outdated-notice {
+  position: relative;
+  top: -50px;
+  width: 100vw;
+  left: calc(-50vw + 50%);
+  background-color: orange;
+  padding: 10px 15px 12px;
+  font-size: 1em;
+  text-shadow: 1px 1px rgba(0, 0, 0, 0.3);
+}
+
+@media (min-width: 768px) {
+  .outdated-notice {
+    top: -100px;
+    font-size: 1.5em;
+  }
+}

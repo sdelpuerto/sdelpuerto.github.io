@@ -1,28 +1,3 @@
-.es, .en {
-  display: none !important;
-}
-.es:lang(es), .en:lang(en) {
-  display: block !important;
-}
-
-.flag {
-  margin: 13px;
-  opacity: 0.5;
-  cursor: pointer;
-}
-
-.flag:hover {
-  opacity: 0.7;
-}
-
-.flag.active {
-   opacity: 1;
-}
-
-.flag > img {
-  height: 24px;
-}
-
 .modal {
   padding-right: 0 !important;
 }

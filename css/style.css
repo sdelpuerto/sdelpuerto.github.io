@@ -1,3 +1,19 @@
 .modal {
   padding-right: 0 !important;
 }
+
+.success blockquote footer {
+  color: white;
+}
+
+blockquote footer {
+  margin-top: 8px;
+}
+
+.fa-quote-left {
+  margin-right: 4px;
+}
+
+.fa-quote-right {
+  margin-left: 4px;
+}

@@ -2,6 +2,24 @@
   padding-right: 0 !important;
 }
 
+nav h1 {
+  display: inline-block;
+  color: white;
+  font-size: 2rem;
+  margin: 14px 0;
+}
+
+@media (max-width: 767px) {
+  nav h1 {
+    margin-left: 15px;
+  }
+}
+
+#about img {
+  margin: 0 auto;
+  pointer-events: none;
+}
+
 #about p {
   margin-bottom: 16px;
 }

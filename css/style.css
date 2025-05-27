@@ -18,6 +18,7 @@ nav h1 {
 #about img {
   margin: 0 auto;
   pointer-events: none;
+  max-height: 480px;
 }
 
 #about p {

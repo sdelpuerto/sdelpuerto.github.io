@@ -2,6 +2,10 @@
   padding-right: 0 !important;
 }
 
+#about p {
+  margin-bottom: 16px;
+}
+
 .success blockquote footer {
   color: white;
 }
